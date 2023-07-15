@@ -1,0 +1,20 @@
+.property-list{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.property-photo{
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.property-description{
+  font-weight: bold;
+}
+
+.property-box{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}

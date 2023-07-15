@@ -1,0 +1,27 @@
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.background {
+    background: url(https://wallpaperaccess.com/full/1126773.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.welcome-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  olive;
+    border:solid black ;
+    background-color: whitesmoke;
+    margin: auto;
+
+    height: 25%;
+    width: 100vw;
+
+}
