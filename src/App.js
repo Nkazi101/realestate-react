@@ -8,6 +8,9 @@ import { useEffect, useState  } from 'react';
 import axios from 'axios'
 import PropertyList from './pages/PropertyList'
 import PageWrapper from './reusables/PageWrapper';
+import Admin from './pages/Admin'
+import AddProperty from './pages/AddProperty'
+import EditProperty from './pages/EditProperty'
 
 function App() {
   
@@ -36,6 +39,10 @@ function App() {
         <Route path="/sign-in" element={<SignIn user={user} setUser={setUser}/>}/>
         <Route path="/sign-up" element={<SignUp user={user} setUser={setUser}/>}/>
         <Route path="/propertylist" element={<PropertyList user={user} setUser={setUser}/>}/>
+        <Route path="/admin" element={<Admin user={user} setUser={setUser} />} />
+        <Route path="/addProperty" element={<AddProperty  user={user} setUser={setUser}  />} />
+        <Route path="/editProperty" element={<EditProperty  user={user} setUser={setUser}/>} />
+
 
       </Routes>
     </PageWrapper>

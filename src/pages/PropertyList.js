@@ -48,7 +48,7 @@ function PropertyList(props) {
     <div className='property-list'>
       <form onSubmit={handleSearchSizeSubmit}>
         <input
-          type='number'
+          type='size'
           value={searchSize}
           onChange={handleSearchSizeChange}
           placeholder='Search by size'
